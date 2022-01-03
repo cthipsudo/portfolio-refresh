@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ProjectSection from './components/ProjectSection';
+import About from './components/About';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Hero/>
       <ProjectSection />
+      <About />
     </div>
   );
 }
