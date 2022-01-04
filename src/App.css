@@ -3,8 +3,16 @@
 }
 
 .contact-section form {
-  display: flex;
-  flex-flow: column;
+  width: 100%;
+  max-width: 960px;
+}
+
+.contact-section form input {
+  width: 100%;
+}
+
+.contact-section form button {
+  border: #000 solid 2px;
 }
 
 .contact-section input, .contact-section textarea {
