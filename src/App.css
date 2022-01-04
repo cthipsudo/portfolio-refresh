@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-.project-header img.skillset-icon {
+.skills-wrapper img.skillset-icon {
   width: auto;
-  height: 2.5rem;
+  height: 1.6rem;
 }
 
 .contact-section form {
@@ -33,7 +33,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 h4 {

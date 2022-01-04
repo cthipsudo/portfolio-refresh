@@ -1,19 +1,15 @@
 const SkillSetIcons = [
   {
-    fileName: 'css3-icon.webp',
-    altText: 'css-3-logo'
-  },
-  {
     fileName: 'html5-icon.webp',
     altText: 'html-5-logo'
   },
   {
-    fileName: 'js-icon.webp',
-    altText: 'javascript-logo'
+    fileName: 'css3-icon.webp',
+    altText: 'css-3-logo'
   },
   {
-    fileName: 'react-icon.webp',
-    altText: 'react-framework-logo'
+    fileName: 'js-icon.webp',
+    altText: 'javascript-logo'
   },
   {
     fileName: 'tailwind-css-icon.webp',
