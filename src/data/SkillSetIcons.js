@@ -24,6 +24,10 @@ const SkillSetIcons = [
     altText: 'webpack-logo'
   },
   {
+    fileName: 'github-icon.webp',
+    altText: 'github-logo'
+  },
+  {
     fileName: 'photoshop-icon.webp',
     altText: 'photoshop-logo'
   },
