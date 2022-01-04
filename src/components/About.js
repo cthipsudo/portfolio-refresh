@@ -1,8 +1,9 @@
 const About = () => {
   return (
     <section className="">
-      <div className="section-header flex justify-start px-4">
+      <div className="section-header flex flex-col items-start px-4">
         <h3 className="underline">About</h3>
+        <h4>Designer and Front End Developer</h4>
       </div>
       <div className="flex justify-evenly items-center">
         <div className="col col1">Column 1 Stuff here</div>
