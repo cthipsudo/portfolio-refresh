@@ -2,6 +2,33 @@
   text-align: center;
 }
 
+.project-wrapper .project {
+  background-color: #000;
+  width: 100px;
+  height: 100px;
+  transition: 0.5s ease;
+  background-image: url('./images/luca.png');
+  background-size: 100px;
+  background-position: center;
+}
+
+.project-wrapper .project:hover {
+  background-size: 120px;
+}
+
+.project-wrapper .project .content {
+  opacity: 0;
+  border-radius: 0.25rem;
+  border-radius: 50%;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+
+.project-wrapper .project:hover .content {
+  opacity: 100;
+}
+
+
 .skills-wrapper img.skillset-icon {
   width: auto;
   height: 1.6rem;
