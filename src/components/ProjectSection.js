@@ -32,6 +32,7 @@ const ProjectSection = () => {
       </div>
 
       <div className="project-wrapper">Showcase Projects here</div>
+      
       <div className="skills-wrapper px-4">
         <div className="flex items-center justify-between">
           <div className="flex gap-2">
