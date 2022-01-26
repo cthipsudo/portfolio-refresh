@@ -1,6 +1,6 @@
 const Testimonials = () => {
   return (
-    <section className="">
+    <section>
       <div className="section-wrapper-inner">
         <div className="section-header flex flex-col items-start px-4">
           <h3 className="underline mb-4">Testimonials</h3>

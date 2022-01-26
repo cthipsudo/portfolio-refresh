@@ -38,7 +38,7 @@ const ProjectSection = () => {
   });
 
   return (
-    <section className="project-section">
+    <section className="project-section snap-center">
       <div className="section-wrapper-inner">
         <div className="project-header flex flex-col items-start md:items-start mb-4">
           <h3 className="underline">Projects</h3>

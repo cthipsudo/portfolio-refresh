@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="text-left">
+    <section className="text-left snap-center">
       <div className="section-wrapper-inner">
         <h1>
           Hey there! I'm Chanpasong O.
