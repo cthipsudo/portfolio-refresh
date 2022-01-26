@@ -1,9 +1,9 @@
-const About = () => {
+const Testimonials = () => {
   return (
     <section className="">
       <div className="section-wrapper-inner">
         <div className="section-header flex flex-col items-start px-4">
-          <h3 className="underline">About</h3>
+          <h3 className="underline">Testimonials</h3>
           <h4>Designer and Front End Developer</h4>
         </div>
         <div className="flex flex-col px-4 text-left gap-4 lg:flex-row">
@@ -27,7 +27,7 @@ const About = () => {
             <p>
               If you're looking to hire a new developer or plan to work on an
               interesting project and need an extra hand, please feel free to
-              contact me for coffee! I would love to hear about any exciting new
+              contact me for coffee! I would love to hear Testimonials any exciting new
               opportunities to work with fellow devs to accomplish great things.
             </p>
           </div>
@@ -37,4 +37,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Testimonials;
