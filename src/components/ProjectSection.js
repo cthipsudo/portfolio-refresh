@@ -35,21 +35,21 @@ const ProjectSection = () => {
 
   return (
     <section>
-      <div className="project-header flex flex-col items-start px-4">
+      <div className="project-header flex flex-col items-center md:items-start px-4">
         <h3 className="underline">Projects</h3>
       </div>
 
-      <div className="project-wrapper flex px-4">
+      <div className="project-wrapper flex flex-wrap justify-center gap-4 px-4">
         {Projects}
       </div>
       
       <div className="skills-wrapper px-4">
-        <div className="flex items-center justify-between">
-          <div className="flex gap-2">
+        <div className="flex flex-col md:items-center md:flex-row md:justify-between">
+          <div className="flex flex-col items-center md:flex-row gap-2">
             <h4>Preferred Stack:</h4>
             {techStackSkillIcons}
           </div>
-          <div className="flex gap-2">
+          <div className="flex flex-col items-center md:flex-row gap-2">
             <h4 className="">Additional Skills:</h4>
             {additionalSkillIcons}
           </div>
