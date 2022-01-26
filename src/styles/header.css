@@ -151,6 +151,9 @@
   .nav-container .checkbox, .nav-container .hamburger-lines {
     display: none;
   }
+  .navbar .nav-container a {
+    padding-bottom: 0;
+  }
 
   .navbar .menu-items {
     padding-top: 0;

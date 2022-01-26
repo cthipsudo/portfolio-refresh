@@ -7,7 +7,7 @@ const Header = () => {
   const socialLinks = SocialLinks.map((item) => {
     //console.log(item);
     return (
-      <a key={uuidv4()} href={item.link} target={"_blank"}>
+      <a key={uuidv4()} href={item.link} target={"_blank"} className="hover-underline-animation">
         <li className="social-item">{item.text}</li>
       </a>
     );
