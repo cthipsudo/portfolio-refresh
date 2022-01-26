@@ -4,7 +4,7 @@ const Footer = () => {
 
   return(
     <footer>
-      <p>Developed by cthipsudo</p>
+      <a href="https://github.com/cthipsudo/portfolio-refresh"><p>Developed by cthipsudo</p></a>
     </footer>
   );
 }

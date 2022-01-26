@@ -3,7 +3,7 @@ const About = () => {
     <section className="">
       <div className="section-wrapper-inner">
         <div className="section-header flex flex-col items-start px-4">
-          <h3 className="underline">About</h3>
+          <h3 className="underline mb-4">About</h3>
           <h4>Designer and Front End Developer</h4>
         </div>
         <div className="flex flex-col px-4 text-left gap-4 lg:flex-row">
