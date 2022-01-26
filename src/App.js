@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import ProjectSection from './components/ProjectSection';
 import About from './components/About';
 import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ProjectSection />
       <About />
       <ContactSection />
+      <Footer />
     </div>
   );
 }

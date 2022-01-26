@@ -67,3 +67,22 @@ h4 {
  font-size: 1.2rem;
  font-style: italic;
 }
+
+header {
+  background-color: #000;
+} 
+
+header .logo {
+  display: none;
+}
+
+footer {
+  padding: 40px 0;
+  border-top: 1px solid #000;
+}
+
+@media all and (min-width: 768px) {
+  header .logo {
+    display: initial;
+  }
+}
